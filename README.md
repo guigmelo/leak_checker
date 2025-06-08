@@ -14,4 +14,6 @@ Desenvolvido em Python, o Leaks Checker é distribuído como um container Docker
 
 ```bash
 git clone https://github.com/kashieel/gs.git
-cd leaks-checker
+cd gs
+docker build -t check_leaks .
+docker run -it check_leaks
